@@ -1,0 +1,73 @@
+
+
+MiniLight 1.6 Scala
+======================================================================
+
+
+Harrison Ainsworth / HXA7241 : 2008-2013  
+http://wwww.hxa7241.org/minilight
+
+2013-05-04
+
+
+
+
+Contents
+--------
+
+* Description
+* Building
+* Usage
+* Acknowledgements
+
+
+
+
+Description
+-----------
+
+MiniLight is a minimal global illumination renderer. See the main MiniLight
+readme for a general description.
+
+
+
+
+Building
+--------
+
+Requirements:
+* Scala 2.9.1 or later installed
+* scala/bin directory is on path
+
+It is an ordinary simple build. There are no special requirements or
+dependencies: everything needed is in the supplied archive (assuming the build
+environment and tools are already prepared).
+
+For Mac or Linux, run the make/build.sh script. For Windows, run the
+make/build.bat script.
+
+Run scripts from the 'scala' directory.
+
+
+
+
+Usage
+-----
+
+Requirements:
+* Scala 2.9.1 or later installed
+* scala/bin directory is on path
+
+Run, from the 'scala' directory, like so:
+   scala -classpath obj hxa7241.minilight.MiniLight
+
+
+
+
+Acknowledgements
+----------------
+
+* Scala 2.10.0  
+  http://www.scala-lang.org/
+* Java SE 1.6  
+  http://www.oracle.com/technetwork/java/javase/downloads/index.html
